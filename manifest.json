@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "fire_snake",
+  "version": "1.0",
+  "description": "Converts input text from camelCase to snake_case",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": ["activeTab", "contextMenus"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

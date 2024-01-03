@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Converts input text from camelCase to snake_case",
   "icons": {
-    "48": "icon.png"
+    "48": "icon-48.png"
   },
   "permissions": ["activeTab", "contextMenus"],
   "background": {

@@ -1,12 +1,14 @@
 # Fire Snake
 
+https://addons.mozilla.org/en-US/firefox/addon/fire_snake/
+
 Fire Snake is a Firefox extension that converts input text from camelCase to snake_case. The extension converts selected text:
 
    - Right-click on any selected text in a webpage.
    - Choose "Convert to snake_case" from the context menu.
    - The selected text will be replaced with its snake_case equivalent.
 
-## Installation
+## Local Installation
 
 1. Clone or download the repository:
 
